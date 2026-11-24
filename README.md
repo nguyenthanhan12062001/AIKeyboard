@@ -183,7 +183,28 @@ The project includes a `debug.keystore` for debug builds. The `release-key.jks` 
 
 ## Screenshots
 
-Screenshots are located in the `public/assets/` folder of the project.
+<table>
+  <tr>
+    <td><img src="Screenshot/Screenshot_20261125-024659.png" width="200" alt="Home Dashboard"/></td>
+    <td><img src="Screenshot/Screenshot_20261125-024704.png" width="200" alt="Typing & Translation"/></td>
+    <td><img src="Screenshot/Screenshot_20261125-024709.png" width="200" alt="Theme Selection"/></td>
+  </tr>
+  <tr>
+    <td><img src="Screenshot/Screenshot_20261125-024713.png" width="200" alt="Theme Studio"/></td>
+    <td><img src="Screenshot/Screenshot_20261125-024717.png" width="200" alt="AI Settings"/></td>
+    <td><img src="Screenshot/Screenshot_20261125-024726.png" width="200" alt="Onboarding"/></td>
+  </tr>
+  <tr>
+    <td><img src="Screenshot/Screenshot_20261125-024730.png" width="200" alt="Vietnamese Input"/></td>
+    <td><img src="Screenshot/Screenshot_20261125-024734.png" width="200" alt="Floating Keyboard"/></td>
+    <td><img src="Screenshot/Screenshot_20261125-024739.png" width="200" alt="Keyboard Theme"/></td>
+  </tr>
+  <tr>
+    <td><img src="Screenshot/Screenshot_20261125-024744.png" width="200" alt="About"/></td>
+  </tr>
+</table>
+
+Tất cả ảnh chụp màn hình được lưu trong thư mục `Screenshot/` của repository.
 
 ## License
 
