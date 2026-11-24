@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<input-method xmlns:android="http://schemas.android.com/apk/res/android"
+    android:settingsActivity="com.ai.banphim.MainActivity"
+    android:supportsSwitchingToNextInputMethod="true">
+    <subtype
+        android:imeSubtypeLocale="vi_VN"
+        android:imeSubtypeMode="keyboard"
+        android:label="@string/subtype_vietnamese"
+        android:languageTag="vi-VN" />
+    <subtype
+        android:imeSubtypeLocale="en_US"
+        android:imeSubtypeMode="keyboard"
+        android:label="@string/subtype_english"
+        android:languageTag="en-US" />
+    <subtype
+        android:imeSubtypeLocale="zh_CN"
+        android:imeSubtypeMode="keyboard"
+        android:label="@string/subtype_chinese_pinyin"
+        android:languageTag="zh-CN" />
+    <subtype
+        android:imeSubtypeLocale="ja_JP"
+        android:imeSubtypeMode="keyboard"
+        android:label="@string/subtype_japanese"
+        android:languageTag="ja-JP" />
+    <subtype
+        android:imeSubtypeLocale="ko_KR"
+        android:imeSubtypeMode="keyboard"
+        android:label="@string/subtype_korean"
+        android:languageTag="ko-KR" />
+    <subtype
+        android:imeSubtypeLocale="ru_RU"
+        android:imeSubtypeMode="keyboard"
+        android:label="@string/subtype_russian"
+        android:languageTag="ru-RU" />
+    <subtype
+        android:imeSubtypeLocale="fr_FR"
+        android:imeSubtypeMode="keyboard"
+        android:label="@string/subtype_french"
+        android:languageTag="fr-FR" />
+    <subtype
+        android:imeSubtypeLocale="de_DE"
+        android:imeSubtypeMode="keyboard"
+        android:label="@string/subtype_german"
+        android:languageTag="de-DE" />
+    <subtype
+        android:imeSubtypeLocale="es_ES"
+        android:imeSubtypeMode="keyboard"
+        android:label="@string/subtype_spanish"
+        android:languageTag="es-ES" />
+    <subtype
+        android:imeSubtypeLocale="th_TH"
+        android:imeSubtypeMode="keyboard"
+        android:label="@string/subtype_thai"
+        android:languageTag="th-TH" />
+    <subtype
+        android:imeSubtypeLocale="in_ID"
+        android:imeSubtypeMode="keyboard"
+        android:label="@string/subtype_indonesian"
+        android:languageTag="id-ID" />
+</input-method>

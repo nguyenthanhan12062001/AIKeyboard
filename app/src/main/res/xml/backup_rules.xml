@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <!-- Exclude sensitive local IME databases (personal typing lexicon & clipboard history) from Cloud Auto Backup -->
+    <exclude domain="database" path="banphim_personal_dict.db" />
+    <exclude domain="database" path="banphim_personal_dict.db-wal" />
+    <exclude domain="database" path="banphim_personal_dict.db-shm" />
+    <exclude domain="database" path="banphim_clipboard.db" />
+    <exclude domain="database" path="banphim_clipboard.db-wal" />
+    <exclude domain="database" path="banphim_clipboard.db-shm" />
+</full-backup-content>

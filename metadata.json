@@ -1,0 +1,6 @@
+{
+  "name": "AI Keyboard",
+  "description": "Multilingual Gboard-style Android keyboard with offline Vietnamese Telex/VNI, Pinyin, Hangul, Romaji, floating mode, and keyless free AI translation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
