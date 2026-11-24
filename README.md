@@ -33,7 +33,7 @@ The app consists of two Gradle modules:
   </tr>
 </table>
 
-Tất cả ảnh chụp màn hình được lưu trong thư mục `Screenshot/` của repository.
+All screenshots are stored in the `Screenshot/` directory of the repository.
 
 ## Key Features
 
@@ -206,6 +206,6 @@ No Firebase, Google Play Services, or external API key is required for core func
 
 The project includes a `debug.keystore` for debug builds. The `release-key.jks` is present locally but its passwords are intentionally parameterized via Gradle properties (`RELEASE_STORE_PASSWORD`, `RELEASE_KEY_ALIAS`, `RELEASE_KEY_PASSWORD`). For release builds, define these in your `gradle.properties` or CI environment; do not commit keystore files or passwords.
 
-## Key Features
+## License
 
 This project is provided as-is for personal and educational use. See repository settings for license details.
