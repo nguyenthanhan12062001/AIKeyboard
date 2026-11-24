@@ -10,6 +10,31 @@ The app consists of two Gradle modules:
 - **`app`** — Companion settings UI, theme studio, onboarding, AI translation orchestration, clipboard, and encrypted personal lexicon.
 - **`core-vietnamese-ime`** — Core multilingual IME engine with Vietnamese, Chinese, Japanese, Korean, and other language input methods.
 
+## Screenshots
+
+<table>
+  <tr>
+    <td><img src="Screenshot/Screenshot_20261125-024659.png" width="200" alt="Home Dashboard"/></td>
+    <td><img src="Screenshot/Screenshot_20261125-024704.png" width="200" alt="Typing & Translation"/></td>
+    <td><img src="Screenshot/Screenshot_20261125-024709.png" width="200" alt="Theme Selection"/></td>
+  </tr>
+  <tr>
+    <td><img src="Screenshot/Screenshot_20261125-024713.png" width="200" alt="Theme Studio"/></td>
+    <td><img src="Screenshot/Screenshot_20261125-024717.png" width="200" alt="AI Settings"/></td>
+    <td><img src="Screenshot/Screenshot_20261125-024726.png" width="200" alt="Onboarding"/></td>
+  </tr>
+  <tr>
+    <td><img src="Screenshot/Screenshot_20261125-024730.png" width="200" alt="Vietnamese Input"/></td>
+    <td><img src="Screenshot/Screenshot_20261125-024734.png" width="200" alt="Floating Keyboard"/></td>
+    <td><img src="Screenshot/Screenshot_20261125-024739.png" width="200" alt="Keyboard Theme"/></td>
+  </tr>
+  <tr>
+    <td><img src="Screenshot/Screenshot_20261125-024744.png" width="200" alt="About"/></td>
+  </tr>
+</table>
+
+Tất cả ảnh chụp màn hình được lưu trong thư mục `Screenshot/` của repository.
+
 ## Key Features
 
 All features below are implemented and verified in the source code:
@@ -181,31 +206,6 @@ No Firebase, Google Play Services, or external API key is required for core func
 
 The project includes a `debug.keystore` for debug builds. The `release-key.jks` is present locally but its passwords are intentionally parameterized via Gradle properties (`RELEASE_STORE_PASSWORD`, `RELEASE_KEY_ALIAS`, `RELEASE_KEY_PASSWORD`). For release builds, define these in your `gradle.properties` or CI environment; do not commit keystore files or passwords.
 
-## Screenshots
-
-<table>
-  <tr>
-    <td><img src="Screenshot/Screenshot_20261125-024659.png" width="200" alt="Home Dashboard"/></td>
-    <td><img src="Screenshot/Screenshot_20261125-024704.png" width="200" alt="Typing & Translation"/></td>
-    <td><img src="Screenshot/Screenshot_20261125-024709.png" width="200" alt="Theme Selection"/></td>
-  </tr>
-  <tr>
-    <td><img src="Screenshot/Screenshot_20261125-024713.png" width="200" alt="Theme Studio"/></td>
-    <td><img src="Screenshot/Screenshot_20261125-024717.png" width="200" alt="AI Settings"/></td>
-    <td><img src="Screenshot/Screenshot_20261125-024726.png" width="200" alt="Onboarding"/></td>
-  </tr>
-  <tr>
-    <td><img src="Screenshot/Screenshot_20261125-024730.png" width="200" alt="Vietnamese Input"/></td>
-    <td><img src="Screenshot/Screenshot_20261125-024734.png" width="200" alt="Floating Keyboard"/></td>
-    <td><img src="Screenshot/Screenshot_20261125-024739.png" width="200" alt="Keyboard Theme"/></td>
-  </tr>
-  <tr>
-    <td><img src="Screenshot/Screenshot_20261125-024744.png" width="200" alt="About"/></td>
-  </tr>
-</table>
-
-Tất cả ảnh chụp màn hình được lưu trong thư mục `Screenshot/` của repository.
-
-## License
+## Key Features
 
 This project is provided as-is for personal and educational use. See repository settings for license details.
